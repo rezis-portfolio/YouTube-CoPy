@@ -1,0 +1,157 @@
+
+.thumbnail {
+  width: 100%;
+}
+
+.video-author {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.video-title {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.video-stats {
+  display: block;
+
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-picture {
+  width: 36px;
+  border-radius: 50px;
+}
+
+.thumbnail-row {
+  position: relative;
+  margin-bottom: 9px;
+}
+
+.thumbnail2-picture {
+  margin-bottom: 9px;
+  position: relative;
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+
+.profile2-picture {
+  width: 36px;
+  border-radius: 50px;
+}
+
+.thumbnail2-picture {
+  margin-bottom: 10px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media (max-width: 400px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 751px) and (min-width: 1001) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
+
+.channel-picture,
+.channel2-picture {
+  position: relative;
+}
+
+.channel-picture div,
+.channel2-picture div {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  background-color: white;
+  bottom: -100px;
+  left: 30px;
+  padding: 10px;
+  z-index: 10;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.15);
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+}
+
+.channel-picture:hover div,
+.channel2-picture:hover div {
+  opacity: 1;
+}
+
+.channel-picture div p,
+.channel2-picture div p {
+ margin-left: 10px;
+ font-weight: bold;
+}
+
+.channel-picture div img,
+.channel2-picture div img {
+  border-radius: 100%;
+}
+
+.number-of {
+  font-weight: 300;
+  font-size: 14px;
+  color: gray;
+}
+
+
+
+

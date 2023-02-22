@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/video.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/sidebar.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="upload-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notification-icon" src="icons/notifications.svg" alt="">
+          <div class="tooltip">notifications</div>
+        </div>
+        <div class="notifications-count">3</div>
+        <img class="current-user-picture" src="you-images/my-channel.jpeg" alt="">
+      </div> 
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar/home.svg" alt="">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/explore.svg" alt="">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/subscriptions.svg" alt="">
+        <div>subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/originals.svg" alt="">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/youtube-music.svg" alt="">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/library.svg" alt="">
+        <div>Library</div>
+      </div>
+    </div>
+ 
+
+    <div class="video-grid">
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"><img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt=""></a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="you-images/channel-1.jpeg" alt="">
+            <div>
+             <img src="you-images/channel-1.jpeg" alt="">
+             <p>Marques Browlee</p>
+             <p><span class="number-of">15M subscribers</span></p>
+           </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and Al with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-row">
+        <div class="thumbnail2-picture">
+          <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"><img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt=""></div></a>         
+        <div class="video-info-grid">
+          <div class="channel2-picture">
+            <img class="profile2-picture" src="you-images/channel-2.jpeg" alt="">
+            <div>
+              <img src="you-images/channel-2.jpeg" alt="">
+              <p>Markiplier</p>
+              <p><span class="number-of">30M subscribers</span></p>
+            </div>
+          </div>
+          <div class="video2-info">
+            <p class="video-title">
+              Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+              Markiplier
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>        
+        </div>      
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w"><img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt=""></a>         
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+           <img class="profile-picture" src="you-images/channel-3.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and Al with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail2-picture">
+          <a href="https://www.youtube.com/watch?v=094y1Z2wpJg"><img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt=""></div></a>
+          
+        <div class="video-info-grid">
+          <div class="channel2-picture">
+            <img class="profile2-picture" src="you-images/channel-4.jpeg" alt="">
+          </div>
+          <div class="video2-info">
+            <p class="video-title">
+              Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+              Markiplier
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>        
+        </div>      
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=86CQq3pKSUw"><img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt=""></a>
+          
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+           <img class="profile-picture" src="you-images/channel-5.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and Al with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail2-picture">
+          <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"><img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt=""></div></a>
+          
+        <div class="video-info-grid">
+          <div class="channel2-picture">
+            <img class="profile2-picture" src="you-images/channel-6.jpeg" alt="">
+          </div>
+          <div class="video2-info">
+            <p class="video-title">
+              Why Planes Don't Fly Over Tibet
+            </p>
+            <p class="video-author">
+              RealLifeLore
+            </p>
+            <p class="video-stats">
+              6.6M views · 1 year ago
+            </p>
+          </div>        
+        </div>      
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y"><img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt=""></a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="you-images/channel-7.jpeg" alt="">
+            <div>
+             <img src="you-images/channel-7.jpeg" alt="">
+             <p>RealLifeLore</p>
+             <p><span class="number-of">15M subscribers</span></p>
+           </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Inside The World's Biggest Passenger Plane
+            </p>
+            <p class="video-author">
+              RealLifeLore
+            </p>
+            <p class="video-stats">
+              6.6M views · 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=lFm4EM1juls"><img class="thumbnail" src="thumbnails/thumbnail-8.webp" alt=""></a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="you-images/channel-8.jpeg" alt="">
+            <div>
+             <img src="you-images/channel-8.jpeg" alt="">
+             <p>Tech Vision</p>
+             <p><span class="number-of">15M subscribers</span></p>
+           </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Inside The World's Biggest Passenger Plane
+            </p>
+            <p class="video-author">
+              Tech Vision
+            </p>
+            <p class="video-stats">
+              3.7M views · 10 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc"><img class="thumbnail" src="thumbnails/thumbnail-9.webp" alt=""></a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="you-images/channel-9.jpeg" alt="">
+            <div>
+             <img src="you-images/channel-9.jpeg" alt="">
+             <p>ThenX</p>
+             <p><span class="number-of">15M subscribers</span></p>
+           </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The SECRET to Super Human STRENGTH
+            </p>
+            <p class="video-author">
+              ThenX
+            </p>
+            <p class="video-stats">
+              20M views · 3 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o"><img class="thumbnail" src="thumbnails/thumbnail-10.webp" alt=""></a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="you-images/channel-10.jpeg" alt="">
+            <div>
+             <img src="you-images/channel-10.jpeg" alt="">
+             <p>Business Insider</p>
+             <p><span class="number-of">15M subscribers</span></p>
+           </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+            </p>
+            <p class="video-author">
+              Business Insider
+            </p>
+            <p class="video-stats">
+              14M views · 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=0nZuYyXET3s"><img class="thumbnail" src="thumbnails/thumbnail-11.webp" alt=""></a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="you-images/channel-11.jpeg" alt="">
+            <div>
+             <img src="you-images/channel-11.jpeg" alt="">
+             <p>Destination Tips</p>
+             <p><span class="number-of">15M subscribers</span></p>
+           </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+            </p>
+            <p class="video-author">
+              Destination Tips
+            </p>
+            <p class="video-stats">
+              3M views · 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs"><img class="thumbnail" src="thumbnails/thumbnail-12.webp" alt=""></a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="you-images/channel-12.jpeg" alt="">
+            <div>
+             <img src="you-images/channel-12.jpeg" alt="">
+             <p>TED-Ed</p>
+             <p><span class="number-of">15M subscribers</span></p>
+           </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              What would happen if you didn’t drink water? - Mia Nacamulli
+            </p>
+            <p class="video-author">
+              TED-Ed
+            </p>
+            <p class="video-stats">
+              12M views · 5 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+      
+        
+
+      
+    
+
+  </body>
+</html>
